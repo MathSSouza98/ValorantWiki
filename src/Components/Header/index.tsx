@@ -1,6 +1,5 @@
 import React from 'react';
 import * as S from './styles';
-import Logo from '../../Assets/valorant-logo.svg'
 import {
     AiOutlineSearch,
 } from 'react-icons/ai'
@@ -9,15 +8,20 @@ const Header: React.FC = () => {
     return(
         <S.Container>
             <S.MenuBtn>
-                <S.LogoImg src={Logo}/>
+                {/* <S.LogoImg src={Logo}/> */}
             </S.MenuBtn>
+
+            <a href='/'>Home</a>
+
             <a href='/agents'>Agentes</a>
             
             <S.Title>
-                <a href=''>Valorant Wiki</a>
+                <p>Valorant Wiki</p>
             </S.Title>
             
             <a href='/guns'>Armas</a>
+
+            <a href='/maps'>Mapas</a>
             <S.SearchBar>
                 <S.SearchBtn>
                     <AiOutlineSearch 

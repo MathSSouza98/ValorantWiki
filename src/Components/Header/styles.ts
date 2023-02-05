@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-    width: 100vw;
+    width: 100%;
     height: 50px;
 
     padding: 20px;
@@ -69,7 +69,9 @@ export const LogoImg = styled.img`
 `;
 
 export const Title = styled.div`
-    a{
+    p{
         font-size: 26px;
+        
+        color: #ffffff;
     };
 `;

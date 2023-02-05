@@ -13,8 +13,8 @@ const Maps: React.FC = () => {
 
     return (
         <S.Container>
-         <Header />
-        <MapsCard />
+            <Header />
+            <MapsCard />
         </S.Container>
     );
 }
